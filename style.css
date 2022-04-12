@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.debug {
+    border: 1px solid black;
+}
+
+header h1 {
+    color: rgb(47, 150, 209);
+    padding:10px 10px 1px;
+}
+
+header nav {
+    background-color: rgb(47, 150, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: white;
+}
+
+header nav select {
+    padding: 0 10px;
+    margin-left: 5px ;
+}
+
+main {
+    background-color: lightgray;
+}
+
+main .icons-container {
+    width: 90%;
+    height: calc(100vh - 108px);
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icons-container .box {
+    width: calc((100% / 5) - 25px);
+    height: 100px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.icons-container .box i {
+    font-size: 30px;
+}
+
+.icons-container .box .title {
+    font-size: 12px;
+}
