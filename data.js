@@ -127,6 +127,11 @@ arrayIcone = [
 // vari tipi di icone (animal, vegetable, user). Quando l'utente seleziona
 //  un tipo dalla select, visualizzare solamente le icone corrispondenti.
 
+arrayIcone.forEach((icona)=> {
+	icona.color = generateRandomColor();
+});
+console.log(arrayIcone)
+
 const container = document.querySelector('.icons-container');
 
 function stampaIcons(filteredIcons){
